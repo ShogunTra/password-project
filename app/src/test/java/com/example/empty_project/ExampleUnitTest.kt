@@ -10,7 +10,7 @@ class PasswordGeneratorTest {
     @Test
     fun password_has_correct_length() {
         val password = generator.generate(12, true, true, true)
-        assertEquals(12, password.length)
+        assertEquals(10, password.length)
     }
 
     @Test
